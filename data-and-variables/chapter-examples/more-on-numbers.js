@@ -22,3 +22,31 @@ Adding these together, 2 + 8 equals 10 in the decimal system.
 console.log(42,0o0);
 console.log(0o0);
 console.log(0o12);
+
+
+/* PEMDAS/BODMAS
+Parenthesis or Brackets
+Exponents or Orders of
+from left to right multiplication and division
+from left to right addition and subtraction
+*/
+console.log(2 ** 2 ** 3 * 3)
+/*
+this is order of operation, exponents have priority and go right to left, i.e. top down...
+2**3 = 2 to the 3rd power = 8
+so now 2**8 is 2 to the 8th power = 256
+finally 256 x 3 = 768
+*/
+
+console.log(16 - 2 * 5 / 3 + 1)
+/*
+this is order of operation...
+multiplication and division from left to right...
+2x5 = 10 and divide by 3 = fraction of 10/3
+addition and subtraction from left to right
+16-10/3 + 1 = 48/3 - 10/3  + 3/3
+38/3 + 3/3 = 41/3
+= 13.6666
+*/
+
+console.log(1 + 5 % 3);
