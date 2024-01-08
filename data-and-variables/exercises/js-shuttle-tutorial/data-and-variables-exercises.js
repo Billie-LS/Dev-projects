@@ -15,7 +15,7 @@ console.log(typeof milesPerKm);
 // Calculate a space mission below
 
 // calculate miles to Mars
-let marsDistanceMiles = marsDistanceKm * milesPerKm; 
+let marsDistanceMiles = marsDistanceKm * milesPerKm; // working fractions distance kM x miles/kM = distance miles
 // calculate travel time in hours to Mars
 let timeToMarsHours = marsDistanceMiles / shuttleSpeedMph;
 // calculate travel time in days to Mars
