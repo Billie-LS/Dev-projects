@@ -23,3 +23,5 @@ language.replace('Java', language.charAt(0)).replace('Script', language.charAt(4
 //1. Use the string methods you know to print 'Title Case' from the string 'title case'.
 
 let notTitleCase = 'title case';
+let titleCase = (notTitleCase.replace('t','T').replace('c','C'));
+console.log(titleCase);
