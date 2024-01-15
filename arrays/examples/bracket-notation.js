@@ -28,15 +28,3 @@ javaScriptFrameworks[2] = "Vue";
 // Notice the value at index 2 is now "Vue"
 console.log(javaScriptFrameworks);  // ["React", "Angular", "Vue"]
 
-const array1 = ['one', 'two', 'three'];
-console.log('array1:', array1);
-// Expected output: "array1:" Array ["one", "two", "three"]
-
-const reversed = array1.reverse();
-console.log('reversed:', reversed);
-// Expected output: reversed: ["three", "two", "one"]
-
-const months = ['March', 'Jan', 'Feb', 'Dec'];
-months.sort();
-console.log(months);
-// Expected output: ["Dec", "Feb", "Jan", "March"]
