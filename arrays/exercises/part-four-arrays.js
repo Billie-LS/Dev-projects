@@ -17,3 +17,5 @@ console.log(holdCabinet2);  // unchanged
 //3) reverse the first array, and sort the second. What is the difference between these two methods? Do the methods alter the original arrays?
 console.log(holdCabinet1.reverse());  // reverse is destructive -- it changes the original array
 console.log(holdCabinet2.sort());  // sort is destructive -- it changes the original array
+console.log(holdCabinet1);
+console.log(holdCabinet2);
