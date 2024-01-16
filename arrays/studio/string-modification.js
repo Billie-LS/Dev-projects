@@ -29,4 +29,6 @@ Sliced and diced is: ${strV}.`);
 
 //2) Modify your code to accept user input. Query the user to enter the number of letters that will be relocated.
 
+
+
 //3) Add validation to your code to deal with user inputs that are longer than the word. In such cases, default to moving 3 characters. Also, the template literal should note the error.
