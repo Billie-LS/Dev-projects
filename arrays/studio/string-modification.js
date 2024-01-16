@@ -28,7 +28,6 @@ console.log(str);  // nchCodeLau
 console.log(`The original is: ${str}.
 Sliced and diced is: ${strV}.`);
 
-
 //2) Modify your code to accept user input. Query the user to enter the number of letters that will be relocated.
 // a. using readline-sync
 let sliceCount = Number(input.question('Enter number of letters to relocate from beginning to end: '));
