@@ -1,4 +1,6 @@
 const input = require('readline-sync');
+const prompt = require('prompt-sync')({ sigint: true });
+
 let str = "LaunchCode";
 
 //1) Use string methods to remove the first three characters from the string and add them to the end.
@@ -28,7 +30,13 @@ Sliced and diced is: ${strV}.`);
 
 
 //2) Modify your code to accept user input. Query the user to enter the number of letters that will be relocated.
+// a. using readline-sync
+let sliceCount = Number(input.question('Enter number of letters to relocate from beginning to end: '));
+console.log(typeof(sliceCount));
+str = "LaunchCode";
 
-
+// b. using prompt-sync
+let userPromptInput = Number(prompt('Enter number of letters to relocate from beginning to end: '));
+console.log(typeof(userPromptInput));
 
 //3) Add validation to your code to deal with user inputs that are longer than the word. In such cases, default to moving 3 characters. Also, the template literal should note the error.
